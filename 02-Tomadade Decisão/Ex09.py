@@ -4,11 +4,11 @@ impares = 0
 
 while True:
     # Solicitar um número ao usuário
-    numero = int(input("Digite um número positivo (ou 0 para encerrar): "))
+    numero = int(input("Digite um número positivo (ou 0 para encerrar):  "))
 
     # Validar se o número é positivo
     if numero < 0:
-        print("Número inválido. Digite um número positivo.")
+        print("Número inválido. Digite um número positivo. ")
         continue
     
     # Verificar se o número é zero (para encerrar)
